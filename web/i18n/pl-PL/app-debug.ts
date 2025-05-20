@@ -214,6 +214,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Zezwól na pustą wiadomość z plikiem',
+      description: 'Pozwala wysłać pustą wiadomość, gdy przynajmniej jeden plik jest załączony.',
+      placeholder_one: 'Sprawdź ten plik',
+      placeholder_other: 'Sprawdź te pliki',
+    },
   },
   automatic: {
     title: 'Zautomatyzowana orkiestracja aplikacji',

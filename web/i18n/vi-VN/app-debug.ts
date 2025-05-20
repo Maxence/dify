@@ -198,6 +198,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Cho phép gửi tin nhắn rỗng kèm tệp',
+      description: 'Cho phép gửi tin nhắn rỗng khi có ít nhất một tệp đính kèm.',
+      placeholder_one: 'Kiểm tra tệp này',
+      placeholder_other: 'Kiểm tra các tệp này',
+    },
   },
   automatic: {
     title: 'Tự động hóa triển khai ứng dụng',

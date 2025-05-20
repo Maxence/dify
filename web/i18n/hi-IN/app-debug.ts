@@ -214,6 +214,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'फ़ाइल के साथ खाली संदेश की अनुमति दें',
+      description: 'जब कम से कम एक फ़ाइल संलग्न हो तो खाली संदेश भेजने की अनुमति दें।',
+      placeholder_one: 'इस फ़ाइल की जाँच करें',
+      placeholder_other: 'इन फ़ाइलों की जाँच करें',
+    },
   },
   automatic: {
     title: 'स्वचालित अनुप्रयोग आयोजन',

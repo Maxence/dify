@@ -214,10 +214,10 @@ const translation = {
       modalTitle: '图片上传设置',
     },
     fileOnlyMessage: {
-      title: '附件时允许发送空消息',
-      description: '至少上传一个文件时允许发送空白消息。',
-      placeholder_one: '请查看这个文件',
-      placeholder_other: '请查看这些文件',
+      title: '允许仅带文件的空消息',
+      description: '当至少附加一个文件时允许发送空消息。',
+      placeholder_one: '查看此文件',
+      placeholder_other: '查看这些文件',
     },
     bar: {
       empty: '开启功能增强 webapp 用户体验',

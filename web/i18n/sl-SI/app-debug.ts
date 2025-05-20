@@ -236,6 +236,12 @@ const translation = {
         ok: 'V redu',
       },
     },
+    fileOnlyMessage: {
+      title: 'Dovoli prazno sporočilo z datoteko',
+      description: 'Omogoči pošiljanje praznega sporočila, ko je priložena vsaj ena datoteka.',
+      placeholder_one: 'Preveri to datoteko',
+      placeholder_other: 'Preveri te datoteke',
+    },
   },
   fileOnlyMessage: {
     title: 'Dovoli prazno sporočilo z datoteko',
