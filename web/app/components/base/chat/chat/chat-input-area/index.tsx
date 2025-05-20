@@ -98,7 +98,7 @@ const ChatInputArea = ({
       let finalQuery = query
       if (!finalQuery || !finalQuery.trim()) {
         if (features.fileOnlyMessage?.enabled && files.length > 0)
-          finalQuery = t('appDebug.feature.fileOnlyMessage.placeholder', { count: files.length }) || 'check this file'
+          finalQuery = t('appDebug.feature.fileOnlyMessage.placeholder', { count: files.length })
         else {
           notify({ type: 'info', message: t('appAnnotation.errorMessage.queryRequired') })
           return

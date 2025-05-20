@@ -77,6 +77,12 @@ const translation = {
       resDes: 'Textul la audio este activat',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Citări și atribuiri',
       description: 'După activare, se vor afișa documentul sursă și secțiunea atribuită a conținutului generat.',
       resDes: 'Citări și atribuiri sunt activate',

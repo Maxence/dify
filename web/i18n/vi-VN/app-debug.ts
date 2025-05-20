@@ -77,6 +77,12 @@ const translation = {
       resDes: 'Đã bật chuyển đổi văn bản thành âm thanh',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Trích dẫn và chú thích',
       description: 'Khi được bật, hiển thị nguồn tài liệu và phần được trích dẫn của nội dung được tạo ra.',
       resDes: 'Đã bật trích dẫn và chú thích',

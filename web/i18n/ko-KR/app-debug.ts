@@ -77,6 +77,12 @@ const translation = {
       resDes: '텍스트에서 오디오로의 변환이 활성화되어 있습니다',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: '인용 및 소유권',
       description: '활성화하면 생성된 콘텐츠의 소스 문서 및 소유권 섹션이 표시됩니다.',
       resDes: '인용 및 소유권이 활성화되어 있습니다',

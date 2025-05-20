@@ -77,6 +77,12 @@ const translation = {
       resDes: 'テキストからオーディオへの変換が有効になっています',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: '引用と帰属',
       description: '有効にすると、生成されたコンテンツのソースドキュメントと帰属セクションが表示されます。',
       resDes: '引用と帰属が有効になっています',

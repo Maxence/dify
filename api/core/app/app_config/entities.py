@@ -272,6 +272,7 @@ class AppAdditionalFeatures(BaseModel):
     more_like_this: bool = False
     speech_to_text: bool = False
     text_to_speech: Optional[TextToSpeechEntity] = None
+    file_only_message: bool = False
     trace_config: Optional[TracingConfigEntity] = None
 
 

@@ -77,6 +77,12 @@ const translation = {
       resDes: 'Преобразование текста в аудио включено',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Цитаты и ссылки',
       description: 'После включения отображается исходный документ и атрибутированная часть сгенерированного контента.',
       resDes: 'Цитаты и ссылки включены',

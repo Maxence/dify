@@ -87,6 +87,12 @@ const translation = {
       description: '啟用後，顯示源文件和生成內容的歸屬部分。',
       resDes: '引用和歸屬已啟用',
     },
+    fileOnlyMessage: {
+      title: '允許附檔空訊息',
+      description: '當至少上傳一個檔案時，可傳送空白訊息。',
+      placeholder_one: '查看此檔案',
+      placeholder_other: '查看這些檔案',
+    },
     annotation: {
       title: '標註回覆',
       description: '啟用後，將標註使用者的回覆，以便在使用者重複提問時快速響應。',

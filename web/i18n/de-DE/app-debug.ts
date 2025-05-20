@@ -81,6 +81,12 @@ const translation = {
       description: 'Einmal aktiviert, zeigen Sie das Quelldokument und den zugeordneten Abschnitt des generierten Inhalts an.',
       resDes: 'Zitate und Urheberangaben sind aktiviert',
     },
+    fileOnlyMessage: {
+      title: "Allow Empty Message With File",
+      description: "Permit sending a blank message when at least one file is attached.",
+      placeholder_one: "Check this file",
+      placeholder_other: "Check these files",
+    },
     annotation: {
       title: 'Annotation Antwort',
       description: 'Sie können manuell hochwertige Antworten zum Cache hinzufügen für bevorzugte Übereinstimmung mit ähnlichen Benutzerfragen.',
