@@ -572,6 +572,8 @@ const translation = {
     thought: '思考',
     thinking: '考え中...',
     resend: '再送信してください',
+    fileOnlyPlaceholder_one: 'このファイルを確認してください',
+    fileOnlyPlaceholder_other: 'これらのファイルを確認してください',
   },
   promptEditor: {
     placeholder: 'ここにプロンプトワードを入力してください。変数を挿入するには「{」を、プロンプトコンテンツブロックを挿入するには「/」を入力します。',

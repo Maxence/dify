@@ -554,6 +554,8 @@ const translation = {
     thinking: 'Pensée...',
     thought: 'Pensée',
     resend: 'Renvoyer',
+    fileOnlyPlaceholder_one: 'Veuillez vérifier ce fichier',
+    fileOnlyPlaceholder_other: 'Veuillez vérifier ces fichiers',
   },
   promptEditor: {
     placeholder: 'Écrivez votre mot d\'invite ici, entrez \'{\' pour insérer une variable, entrez \'/\' pour insérer un bloc de contenu d\'invite',
