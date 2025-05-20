@@ -42,6 +42,8 @@ export type FileUpload = {
   fileUploadConfig?: FileUploadConfigResponse
 } & EnabledOrDisabled
 
+export type FileOnlyMessage = EnabledOrDisabled
+
 export type AnnotationReplyConfig = {
   enabled: boolean
   id?: string
@@ -61,6 +63,7 @@ export enum FeatureEnum {
   citation = 'citation',
   moderation = 'moderation',
   file = 'file',
+  fileOnlyMessage = 'fileOnlyMessage',
   annotationReply = 'annotationReply',
 }
 
@@ -73,6 +76,7 @@ export type Features = {
   [FeatureEnum.citation]?: RetrieverResource
   [FeatureEnum.moderation]?: SensitiveWordAvoidance
   [FeatureEnum.file]?: FileUpload
+  [FeatureEnum.fileOnlyMessage]?: FileOnlyMessage
   [FeatureEnum.annotationReply]?: AnnotationReplyConfig
 }
 
