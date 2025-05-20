@@ -216,6 +216,8 @@ const translation = {
     fileOnlyMessage: {
       title: 'Allow Empty Message With File',
       description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
     },
     bar: {
       empty: 'Enable feature to enhance web app user experience',

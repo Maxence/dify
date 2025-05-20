@@ -213,6 +213,12 @@ const translation = {
       numberLimit: '最大上传数',
       modalTitle: '图片上传设置',
     },
+    fileOnlyMessage: {
+      title: '附件时允许发送空消息',
+      description: '至少上传一个文件时允许发送空白消息。',
+      placeholder_one: '请查看这个文件',
+      placeholder_other: '请查看这些文件',
+    },
     bar: {
       empty: '开启功能增强 webapp 用户体验',
       enableText: '功能已开启',

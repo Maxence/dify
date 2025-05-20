@@ -237,6 +237,12 @@ const translation = {
       },
     },
   },
+  fileOnlyMessage: {
+    title: 'Dovoli prazno sporočilo z datoteko',
+    description: 'Omogoča pošiljanje praznega sporočila, ko je priložena vsaj ena datoteka.',
+    placeholder_one: 'Preveri to datoteko',
+    placeholder_other: 'Preveri te datoteke',
+  },
 }
 
 module.exports = translation

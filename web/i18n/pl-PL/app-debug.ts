@@ -237,6 +237,12 @@ const translation = {
     overwriteMessage:
       'Zastosowanie tej orkiestracji zastąpi istniejącą konfigurację.',
   },
+  fileOnlyMessage: {
+    title: 'Zezwól na pustą wiadomość z plikiem',
+    description: 'Pozwala wysłać pustą wiadomość, gdy dołączono co najmniej jeden plik.',
+    placeholder_one: 'Sprawdź ten plik',
+    placeholder_other: 'Sprawdź te pliki',
+  },
   resetConfig: {
     title: 'Potwierdź reset?',
     message:

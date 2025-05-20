@@ -238,6 +238,12 @@ const translation = {
     overwriteMessage:
       'Applicando questa orchestrazione sovrascriverai la configurazione esistente.',
   },
+  fileOnlyMessage: {
+    title: 'Consenti messaggio vuoto con file',
+    description: "Permette l'invio di un messaggio vuoto quando è allegato almeno un file.",
+    placeholder_one: 'Controlla questo file',
+    placeholder_other: 'Controlla questi file',
+  },
   resetConfig: {
     title: 'Confermare il ripristino?',
     message:

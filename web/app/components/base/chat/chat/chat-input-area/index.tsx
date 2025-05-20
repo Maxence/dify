@@ -96,12 +96,13 @@ const ChatInputArea = ({
         return
       }
       let finalQuery = query
-      if (!query || !query.trim()) {
-        if (!(features.fileOnlyMessage?.enabled && files.length > 0)) {
+      if (!finalQuery || !finalQuery.trim()) {
+        if (features.fileOnlyMessage?.enabled && files.length > 0)
+          finalQuery = t('appDebug.feature.fileOnlyMessage.placeholder', { count: files.length })
+        else {
           notify({ type: 'info', message: t('appAnnotation.errorMessage.queryRequired') })
           return
         }
-        finalQuery = t('common.chat.fileOnlyPlaceholder', { count: files.length }) || 'check this file'
       }
       if (checkInputsForm(inputs, inputsForm)) {
         onSend(finalQuery, files)

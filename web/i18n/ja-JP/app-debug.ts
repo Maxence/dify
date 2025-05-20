@@ -288,6 +288,12 @@ const translation = {
       },
     },
   },
+  fileOnlyMessage: {
+    title: 'ファイルのみで送信を許可',
+    description: '少なくとも1つのファイルが添付されている場合、空のメッセージ送信を許可します。',
+    placeholder_one: 'このファイルを確認してください',
+    placeholder_other: 'これらのファイルを確認してください',
+  },
   resetConfig: {
     title: 'リセットを確認しますか？',
     message: '変更が破棄され、最後に公開された構成が復元されます。',
