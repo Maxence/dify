@@ -76,6 +76,12 @@ const translation = {
       description: '文本可以转换成语音。',
       resDes: '文本转音频已启用',
     },
+    fileOnlyMessage: {
+      title: '允许附带文件的空消息',
+      description: '当至少上传一个文件时允许发送空消息。',
+      placeholder_one: '查看这个文件',
+      placeholder_other: '查看这些文件',
+    },
     citation: {
       title: '引用和归属',
       description: '显示源文档和生成内容的归属部分。',

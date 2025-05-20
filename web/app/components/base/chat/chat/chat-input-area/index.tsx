@@ -26,6 +26,7 @@ import VoiceInput from '@/app/components/base/voice-input'
 import { useToastContext } from '@/app/components/base/toast'
 import FeatureBar from '@/app/components/base/features/new-feature-panel/feature-bar'
 import type { FileUpload } from '@/app/components/base/features/types'
+import { useFeatures } from '@/app/components/base/features/hooks'
 import { TransferMethod } from '@/types/app'
 
 type ChatInputAreaProps = {
@@ -77,6 +78,7 @@ const ChatInputArea = ({
     handleClipboardPasteFile,
     isDragActive,
   } = useFile(visionConfig!)
+  const features = useFeatures(s => s.features)
   const { checkInputsForm } = useCheckInputsForms()
   const historyRef = useRef([''])
   const [currentIndex, setCurrentIndex] = useState(-1)
@@ -93,12 +95,17 @@ const ChatInputArea = ({
         notify({ type: 'info', message: t('appDebug.errorMessage.waitForFileUpload') })
         return
       }
-      if (!query || !query.trim()) {
-        notify({ type: 'info', message: t('appAnnotation.errorMessage.queryRequired') })
-        return
+      let finalQuery = query
+      if (!finalQuery || !finalQuery.trim()) {
+        if (features.fileOnlyMessage?.enabled && files.length > 0)
+          finalQuery = t('appDebug.feature.fileOnlyMessage.placeholder', { count: files.length })
+        else {
+          notify({ type: 'info', message: t('appAnnotation.errorMessage.queryRequired') })
+          return
+        }
       }
       if (checkInputsForm(inputs, inputsForm)) {
-        onSend(query, files)
+        onSend(finalQuery, files)
         setQuery('')
         setFiles([])
       }

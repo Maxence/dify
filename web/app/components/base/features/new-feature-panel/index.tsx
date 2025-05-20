@@ -13,6 +13,7 @@ import FollowUp from '@/app/components/base/features/new-feature-panel/follow-up
 import SpeechToText from '@/app/components/base/features/new-feature-panel/speech-to-text'
 import TextToSpeech from '@/app/components/base/features/new-feature-panel/text-to-speech'
 import FileUpload from '@/app/components/base/features/new-feature-panel/file-upload'
+import FileOnlyMessage from '@/app/components/base/features/new-feature-panel/file-only-message'
 import Citation from '@/app/components/base/features/new-feature-panel/citation'
 import ImageUpload from '@/app/components/base/features/new-feature-panel/image-upload'
 import Moderation from '@/app/components/base/features/new-feature-panel/moderation'
@@ -109,6 +110,7 @@ const NewFeaturePanel = ({
             <SpeechToText disabled={disabled} onChange={onChange} />
           )}
           {showFileUpload && isChatMode && <FileUpload disabled={disabled} onChange={onChange} />}
+          {showFileUpload && isChatMode && <FileOnlyMessage disabled={disabled} onChange={onChange} />}
           {showFileUpload && !isChatMode && <ImageUpload disabled={disabled} onChange={onChange} />}
           {isChatMode && (
             <Citation disabled={disabled} onChange={onChange} />

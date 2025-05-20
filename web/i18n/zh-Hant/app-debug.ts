@@ -76,6 +76,12 @@ const translation = {
       description: '啟用後，文字可以轉換成語音。',
       resDes: '文字轉音訊已啟用',
     },
+    fileOnlyMessage: {
+      title: '允許空白訊息附加檔案',
+      description: '當至少附加一個檔案時允許發送空白訊息。',
+      placeholder_one: '檢查這個檔案',
+      placeholder_other: '檢查這些檔案',
+    },
     citation: {
       title: '引用和歸屬',
       description: '啟用後，顯示源文件和生成內容的歸屬部分。',

@@ -11,6 +11,7 @@ from core.app.app_config.features.suggested_questions_after_answer.manager impor
     SuggestedQuestionsAfterAnswerConfigManager,
 )
 from core.app.app_config.features.text_to_speech.manager import TextToSpeechConfigManager
+from core.app.app_config.features.file_only_message.manager import FileOnlyMessageConfigManager
 from models.model import AppMode
 
 
@@ -45,5 +46,7 @@ class BaseAppConfigManager:
         additional_features.speech_to_text = SpeechToTextConfigManager.convert(config=config_dict)
 
         additional_features.text_to_speech = TextToSpeechConfigManager.convert(config=config_dict)
+
+        additional_features.file_only_message = FileOnlyMessageConfigManager.convert(config=config_dict)
 
         return additional_features

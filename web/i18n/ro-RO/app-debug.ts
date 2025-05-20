@@ -76,6 +76,12 @@ const translation = {
       description: 'După activare, textul poate fi convertit în vorbire.',
       resDes: 'Textul la audio este activat',
     },
+    fileOnlyMessage: {
+      title: 'Permite mesaj gol cu fișier',
+      description: 'Permite trimiterea unui mesaj gol atunci când cel puțin un fișier este atașat.',
+      placeholder_one: 'Verifică acest fișier',
+      placeholder_other: 'Verifică aceste fișiere',
+    },
     citation: {
       title: 'Citări și atribuiri',
       description: 'După activare, se vor afișa documentul sursă și secțiunea atribuită a conținutului generat.',

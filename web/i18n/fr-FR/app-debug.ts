@@ -76,6 +76,12 @@ const translation = {
       description: 'Une fois activé, le texte peut être converti en parole.',
       resDes: 'La Texte à Audio est activée',
     },
+    fileOnlyMessage: {
+      title: 'Autoriser le message vide avec fichier',
+      description: 'Permet d\'envoyer un message vide lorsqu\'au moins un fichier est joint.',
+      placeholder_one: 'Vérifier ce fichier',
+      placeholder_other: 'Vérifier ces fichiers',
+    },
     citation: {
       title: 'Citations et Attributions',
       description: 'Une fois activé, affichez le document source et la section attribuée du contenu généré.',

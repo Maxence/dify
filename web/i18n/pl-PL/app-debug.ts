@@ -82,6 +82,12 @@ const translation = {
       description: 'Po włączeniu tekst można przekształcić w mowę.',
       resDes: 'Tekst na audio jest włączony',
     },
+    fileOnlyMessage: {
+      title: 'Zezwól na pustą wiadomość z plikiem',
+      description: 'Pozwala wysłać pustą wiadomość, gdy dołączono przynajmniej jeden plik.',
+      placeholder_one: 'Sprawdź ten plik',
+      placeholder_other: 'Sprawdź te pliki',
+    },
     citation: {
       title: 'Cytaty i odniesienia',
       description:

@@ -85,6 +85,12 @@ const translation = {
       description: 'सक्रिय होने पर, पाठ को वाक् में परिवर्तित किया जा सकता है।',
       resDes: 'पाठ से ऑडियो सक्रिय है',
     },
+    fileOnlyMessage: {
+      title: 'फ़ाइल के साथ खाली संदेश की अनुमति दें',
+      description: 'जब कम से कम एक फ़ाइल संलग्न हो तो खाली संदेश भेजने की अनुमति दें।',
+      placeholder_one: 'इस फ़ाइल की जाँच करें',
+      placeholder_other: 'इन फ़ाइलों की जाँच करें',
+    },
     citation: {
       title: 'उद्धरण और संदर्भ',
       description:
