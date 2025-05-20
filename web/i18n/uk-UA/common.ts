@@ -555,6 +555,8 @@ const translation = {
     thought: 'Думка',
     thinking: 'Мислення...',
     resend: 'Відправити знову',
+    fileOnlyPlaceholder_one: 'Перевірте цей файл',
+    fileOnlyPlaceholder_other: 'Перевірте ці файли',
   },
   promptEditor: {
     placeholder: 'Пишіть свої підказки тут, вводьте \'{\', щоб вставити змінну чи \'/\', щоб вставити блок-підказку',

@@ -571,6 +571,8 @@ const translation = {
     thinking: '深度思考中...',
     thought: '已深度思考',
     resend: '重新发送',
+    fileOnlyPlaceholder_one: '查看此文件',
+    fileOnlyPlaceholder_other: '查看这些文件',
   },
   promptEditor: {
     placeholder: '在这里写你的提示词，输入\'{\' 插入变量、输入\'/\' 插入提示内容块',

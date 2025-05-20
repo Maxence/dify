@@ -205,6 +205,12 @@ const translation = {
       placeholder_other: 'Diese Dateien prüfen',
     },
   },
+  fileOnlyMessage: {
+    title: 'Leere Nachricht mit Datei erlauben',
+    description: 'Ermöglicht das Senden einer leeren Nachricht, wenn mindestens eine Datei angehängt ist.',
+    placeholder_one: 'Prüfe diese Datei',
+    placeholder_other: 'Prüfe diese Dateien',
+  },
   resetConfig: {
     title: 'Zurücksetzen bestätigen?',
     message:

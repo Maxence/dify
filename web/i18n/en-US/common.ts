@@ -571,6 +571,8 @@ const translation = {
     thinking: 'Thinking...',
     thought: 'Thought',
     resend: 'Resend',
+    fileOnlyPlaceholder_one: 'Check this file',
+    fileOnlyPlaceholder_other: 'Check these files',
   },
   promptEditor: {
     placeholder: 'Write your prompt word here, enter \'{\' to insert a variable, enter \'/\' to insert a prompt content block',

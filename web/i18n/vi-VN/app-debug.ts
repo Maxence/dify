@@ -222,6 +222,12 @@ const translation = {
     overwriteTitle: 'Ghi đè cấu hình hiện tại?',
     overwriteMessage: 'Áp dụng tự động hóa này sẽ ghi đè lên cấu hình hiện tại.',
   },
+  fileOnlyMessage: {
+    title: 'Cho phép gửi tin nhắn trống khi có tệp',
+    description: 'Cho phép gửi tin nhắn trống khi có ít nhất một tệp đính kèm.',
+    placeholder_one: 'Kiểm tra tệp này',
+    placeholder_other: 'Kiểm tra các tệp này',
+  },
   resetConfig: {
     title: 'Xác nhận đặt lại?',
     message: 'Đặt lại sẽ loại bỏ các thay đổi, khôi phục cấu hình đã xuất bản lần cuối.',

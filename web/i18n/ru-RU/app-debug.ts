@@ -258,6 +258,12 @@ const translation = {
       },
     },
   },
+  fileOnlyMessage: {
+    title: 'Разрешить пустое сообщение с файлом',
+    description: 'Позволяет отправлять пустое сообщение, если прикреплен хотя бы один файл.',
+    placeholder_one: 'Проверьте этот файл',
+    placeholder_other: 'Проверьте эти файлы',
+  },
   resetConfig: {
     title: 'Подтвердить сброс?',
     message:

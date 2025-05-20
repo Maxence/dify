@@ -554,6 +554,8 @@ const translation = {
     thought: 'Tư duy',
     thinking: 'Suy nghĩ...',
     resend: 'Gửi lại',
+    fileOnlyPlaceholder_one: 'Kiểm tra tệp này',
+    fileOnlyPlaceholder_other: 'Kiểm tra các tệp này',
   },
   promptEditor: {
     placeholder: 'Viết từ khóa của bạn ở đây, nhập \'{\' để chèn một biến, nhập \'/\' để chèn một khối nội dung nhắc nhở',
