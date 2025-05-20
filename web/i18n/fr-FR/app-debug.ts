@@ -77,10 +77,10 @@ const translation = {
       resDes: 'La Texte à Audio est activée',
     },
     fileOnlyMessage: {
-      title: "Autoriser l'envoi de message vide avec fichier",
-      description: "Permettre l'envoi d'un message vide lorsqu'au moins un fichier est joint.",
-      placeholder_one: 'Vérifier ce fichier',
-      placeholder_other: 'Vérifier ces fichiers',
+      title: 'Autoriser le message vide avec fichier',
+      description: 'Permettre l\'envoi d\'un message vide lorsqu\'au moins un fichier est joint.',
+      placeholder_one: 'Vérifiez ce fichier',
+      placeholder_other: 'Vérifiez ces fichiers',
     },
     citation: {
       title: 'Citations et Attributions',

@@ -10,6 +10,7 @@ from core.app.app_config.features.suggested_questions_after_answer.manager impor
     SuggestedQuestionsAfterAnswerConfigManager,
 )
 from core.app.app_config.features.text_to_speech.manager import TextToSpeechConfigManager
+from core.app.app_config.features.file_only_message.manager import FileOnlyMessageConfigManager
 from core.app.app_config.workflow_ui_based_app.variables.manager import WorkflowVariablesConfigManager
 from models.model import App, AppMode
 from models.workflow import Workflow
@@ -56,7 +57,7 @@ class AdvancedChatAppConfigManager(BaseAppConfigManager):
         config, current_related_config_keys = FileUploadConfigManager.validate_and_set_defaults(config=config)
         related_config_keys.extend(current_related_config_keys)
 
-        # file only message
+        # file_only_message
         config, current_related_config_keys = FileOnlyMessageConfigManager.validate_and_set_defaults(config)
         related_config_keys.extend(current_related_config_keys)
 
