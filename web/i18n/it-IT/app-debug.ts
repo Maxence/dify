@@ -84,6 +84,12 @@ const translation = {
         'Una volta abilitato, il testo può essere convertito in voce.',
       resDes: 'Il testo in audio è abilitato',
     },
+    fileOnlyMessage: {
+      title: 'Consenti messaggio vuoto con file',
+      description: 'Permette di inviare un messaggio vuoto quando è allegato almeno un file.',
+      placeholder_one: 'Controlla questo file',
+      placeholder_other: 'Controlla questi file',
+    },
     citation: {
     fileOnlyMessage: {
       title: 'Allow Empty Message With File',

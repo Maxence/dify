@@ -76,6 +76,12 @@ const translation = {
       description: 'پس از فعال شدن، متن می‌تواند به گفتار تبدیل شود.',
       resDes: 'تبدیل متن به صدا فعال شده است',
     },
+    fileOnlyMessage: {
+      title: 'اجازه پیام خالی با فایل',
+      description: 'امکان ارسال پیام خالی زمانی که حداقل یک فایل پیوست شده باشد.',
+      placeholder_one: 'این فایل را بررسی کن',
+      placeholder_other: 'این فایل‌ها را بررسی کن',
+    },
     citation: {
     fileOnlyMessage: {
       title: 'Allow Empty Message With File',

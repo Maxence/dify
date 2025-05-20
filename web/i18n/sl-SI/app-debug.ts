@@ -76,6 +76,12 @@ const translation = {
       description: 'Ko je omogočeno, lahko besedilo pretvoriš v govor.',
       resDes: 'Pretvorba besedila v zvok je omogočena.',
     },
+    fileOnlyMessage: {
+      title: 'Dovoli prazno sporočilo z datoteko',
+      description: 'Omogoča pošiljanje praznega sporočila, če je priložena vsaj ena datoteka.',
+      placeholder_one: 'Preveri to datoteko',
+      placeholder_other: 'Preveri te datoteke',
+    },
     citation: {
     fileOnlyMessage: {
       title: 'Allow Empty Message With File',

@@ -76,6 +76,12 @@ const translation = {
       description: '활성화하면 텍스트를 음성으로 변환할 수 있습니다.',
       resDes: '텍스트에서 오디오로의 변환이 활성화되어 있습니다',
     },
+    fileOnlyMessage: {
+      title: '파일만으로 빈 메시지 허용',
+      description: '하나 이상의 파일이 첨부된 경우 빈 메시지를 보낼 수 있습니다.',
+      placeholder_one: '이 파일을 확인해 주세요',
+      placeholder_other: '이 파일들을 확인해 주세요',
+    },
     citation: {
     fileOnlyMessage: {
       title: 'Allow Empty Message With File',

@@ -76,6 +76,12 @@ const translation = {
       description: 'Після увімкнення текст може бути перетворений у мовлення.',
       resDes: 'Перетворення тексту на аудіо включено',
     },
+    fileOnlyMessage: {
+      title: 'Дозволити порожнє повідомлення з файлом',
+      description: 'Дозволяє надсилати порожнє повідомлення, якщо приєднано хоча б один файл.',
+      placeholder_one: 'Перевірте цей файл',
+      placeholder_other: 'Перевірте ці файли',
+    },
     citation: {
     fileOnlyMessage: {
       title: 'Allow Empty Message With File',

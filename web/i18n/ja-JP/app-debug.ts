@@ -76,6 +76,12 @@ const translation = {
       description: '有効にすると、テキストを音声に変換できます。',
       resDes: 'テキストからオーディオへの変換が有効になっています',
     },
+    fileOnlyMessage: {
+      title: 'ファイルのみで空メッセージを許可',
+      description: '少なくとも 1 つのファイルが添付されている場合、空のメッセージを送信できます。',
+      placeholder_one: 'このファイルをチェックして',
+      placeholder_other: 'これらのファイルをチェックして',
+    },
     citation: {
     fileOnlyMessage: {
       title: 'Allow Empty Message With File',

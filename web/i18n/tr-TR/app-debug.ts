@@ -76,6 +76,12 @@ const translation = {
       description: 'Etkinleştirildiğinde, metin sese dönüştürülebilir.',
       resDes: 'Metinden Ses dosyasına dönüştürme etkinleştirildi',
     },
+    fileOnlyMessage: {
+      title: 'Dosya ile boş mesajı izin ver',
+      description: 'En az bir dosya eklendiğinde boş mesaj göndermeye izin verir.',
+      placeholder_one: 'Bu dosyayı kontrol et',
+      placeholder_other: 'Bu dosyaları kontrol et',
+    },
     citation: {
     fileOnlyMessage: {
       title: 'Allow Empty Message With File',

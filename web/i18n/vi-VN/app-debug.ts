@@ -76,6 +76,12 @@ const translation = {
       description: 'Khi được bật, văn bản có thể được chuyển đổi thành giọng nói.',
       resDes: 'Đã bật chuyển đổi văn bản thành âm thanh',
     },
+    fileOnlyMessage: {
+      title: 'Cho phép gửi tin nhắn trống kèm tệp',
+      description: 'Cho phép gửi tin nhắn trống khi có ít nhất một tệp đính kèm.',
+      placeholder_one: 'Kiểm tra tệp này',
+      placeholder_other: 'Kiểm tra các tệp này',
+    },
     citation: {
     fileOnlyMessage: {
       title: 'Allow Empty Message With File',
