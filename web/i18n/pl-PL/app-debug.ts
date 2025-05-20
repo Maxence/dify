@@ -214,6 +214,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Zezwól na pustą wiadomość z plikiem',
+      description: 'Pozwala wysłać pustą wiadomość, gdy przynajmniej jeden plik jest załączony.',
+      placeholder_one: 'Sprawdź ten plik',
+      placeholder_other: 'Sprawdź te pliki',
+    },
   },
   automatic: {
     title: 'Zautomatyzowana orkiestracja aplikacji',
@@ -236,6 +242,12 @@ const translation = {
     overwriteTitle: 'Zastąpić istniejącą konfigurację?',
     overwriteMessage:
       'Zastosowanie tej orkiestracji zastąpi istniejącą konfigurację.',
+  },
+  fileOnlyMessage: {
+    title: 'Zezwól na pustą wiadomość z plikiem',
+    description: 'Pozwala wysłać pustą wiadomość, gdy dołączono co najmniej jeden plik.',
+    placeholder_one: 'Sprawdź ten plik',
+    placeholder_other: 'Sprawdź te pliki',
   },
   resetConfig: {
     title: 'Potwierdź reset?',

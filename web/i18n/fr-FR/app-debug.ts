@@ -204,6 +204,18 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Autoriser le message vide avec fichier',
+      description: 'Permettre l\'envoi d\'un message vide lorsqu\'au moins un fichier est attaché.',
+      placeholder_one: 'Vérifier ce fichier',
+      placeholder_other: 'Vérifier ces fichiers',
+    },
+  },
+  fileOnlyMessage: {
+    title: 'Autoriser le message vide avec fichier',
+    description: "Autorise l'envoi d'un message vide lorsqu'au moins un fichier est attaché.",
+    placeholder_one: 'Vérifiez ce fichier',
+    placeholder_other: 'Vérifiez ces fichiers',
   },
   resetConfig: {
     title: 'Confirmer la réinitialisation ?',

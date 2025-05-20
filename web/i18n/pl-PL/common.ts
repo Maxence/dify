@@ -569,6 +569,8 @@ const translation = {
     thought: 'Myśl',
     thinking: 'Myślenie...',
     resend: 'Prześlij ponownie',
+    fileOnlyPlaceholder_one: 'Sprawdź ten plik',
+    fileOnlyPlaceholder_other: 'Sprawdź te pliki',
   },
   promptEditor: {
     placeholder:

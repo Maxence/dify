@@ -554,6 +554,8 @@ const translation = {
     thinking: '思維。。。',
     thought: '思想',
     resend: '重新發送',
+    fileOnlyPlaceholder_one: '檢視此檔案',
+    fileOnlyPlaceholder_other: '檢視這些檔案',
   },
   promptEditor: {
     placeholder: '在這裡寫你的提示詞，輸入\'{\' 插入變數、輸入\'/\' 插入提示內容塊',

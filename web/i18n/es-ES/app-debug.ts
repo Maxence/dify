@@ -198,6 +198,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Permitir mensaje vacío con archivo',
+      description: 'Permitir enviar un mensaje en blanco cuando al menos un archivo esté adjunto.',
+      placeholder_one: 'Revisar este archivo',
+      placeholder_other: 'Revisar estos archivos',
+    },
   },
   automatic: {
     title: 'Orquestación automatizada de aplicaciones',
@@ -215,6 +221,12 @@ const translation = {
     loading: 'Orquestando la aplicación para ti...',
     overwriteTitle: '¿Sobrescribir configuración existente?',
     overwriteMessage: 'Aplicar esta orquestación sobrescribirá la configuración existente.',
+  },
+  fileOnlyMessage: {
+    title: 'Permitir mensaje vacío con archivo',
+    description: 'Permite enviar un mensaje en blanco cuando hay al menos un archivo adjunto.',
+    placeholder_one: 'Revisa este archivo',
+    placeholder_other: 'Revisa estos archivos',
   },
   resetConfig: {
     title: '¿Confirmar restablecimiento?',

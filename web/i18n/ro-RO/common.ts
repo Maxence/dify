@@ -554,6 +554,8 @@ const translation = {
     thinking: 'Gândire...',
     thought: 'Gând',
     resend: 'Reexpediați',
+    fileOnlyPlaceholder_one: 'Verifică acest fișier',
+    fileOnlyPlaceholder_other: 'Verifică aceste fișiere',
   },
   promptEditor: {
     placeholder: 'Scrieți aici prompt-ul, introduceți \'{}\' pentru a insera o variabilă, introduceți \'/\' pentru a insera un bloc de conținut prompt',

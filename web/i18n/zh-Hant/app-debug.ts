@@ -204,6 +204,18 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: '允許附檔空白訊息',
+      description: '當至少附加一個檔案時，可允許傳送空白訊息。',
+      placeholder_one: '檢查此檔案',
+      placeholder_other: '檢查這些檔案',
+    },
+  },
+  fileOnlyMessage: {
+    title: '附件時允許發送空消息',
+    description: '至少上傳一個檔案時允許發送空白訊息。',
+    placeholder_one: '請查看此檔案',
+    placeholder_other: '請查看這些檔案',
   },
   resetConfig: {
     title: '確認重置？',

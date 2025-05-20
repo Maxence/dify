@@ -576,6 +576,8 @@ const translation = {
     thought: 'विचार',
     thinking: 'सोचते हुए...',
     resend: 'फिर से भेजें',
+    fileOnlyPlaceholder_one: 'इस फ़ाइल की जाँच करें',
+    fileOnlyPlaceholder_other: 'इन फ़ाइलों की जाँच करें',
   },
   promptEditor: {
     placeholder:

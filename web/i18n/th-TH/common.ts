@@ -553,6 +553,8 @@ const translation = {
     thought: 'ความคิด',
     thinking: 'ความคิด   ',
     resend: 'ส่งอีกครั้ง',
+    fileOnlyPlaceholder_one: 'ตรวจสอบไฟล์นี้',
+    fileOnlyPlaceholder_other: 'ตรวจสอบไฟล์เหล่านี้',
   },
   promptEditor: {
     placeholder: 'เขียนคําพร้อมท์ของคุณที่นี่ ป้อน \'{\' เพื่อแทรกตัวแปร ป้อน \'/\' เพื่อแทรกบล็อกเนื้อหาพร้อมท์',

@@ -558,6 +558,8 @@ const translation = {
     thought: 'Düşünce',
     thinking: 'Düşünü...',
     resend: 'Yeniden gönder',
+    fileOnlyPlaceholder_one: 'Bu dosyayı kontrol et',
+    fileOnlyPlaceholder_other: 'Bu dosyaları kontrol et',
   },
   promptEditor: {
     placeholder: 'Prompt kelimenizi buraya yazın, değişken eklemek için \'{\' tuşuna, prompt içerik bloğu eklemek için \'/\' tuşuna basın',

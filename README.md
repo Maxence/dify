@@ -74,6 +74,13 @@ cp .env.example .env
 docker compose up -d
 ```
 
+To build the Docker images from your local source code instead of pulling the
+prebuilt images, run:
+
+```bash
+docker compose up -d --build
+```
+
 After running, you can access the Dify dashboard in your browser at [http://localhost/install](http://localhost/install) and start the initialization process.
 
 #### Seeking help
