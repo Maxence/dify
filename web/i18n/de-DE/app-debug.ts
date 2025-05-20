@@ -76,6 +76,12 @@ const translation = {
       description: 'Einmal aktiviert, kann Text in Sprache umgewandelt werden.',
       resDes: 'Text zu Audio ist aktiviert',
     },
+    fileOnlyMessage: {
+      title: 'Leere Nachricht mit Datei erlauben',
+      description: 'Ermöglicht das Senden einer leeren Nachricht, wenn mindestens eine Datei angehängt ist.',
+      placeholder_one: 'Schau dir diese Datei an',
+      placeholder_other: 'Schau dir diese Dateien an',
+    },
     citation: {
       title: 'Zitate und Urheberangaben',
       description: 'Einmal aktiviert, zeigen Sie das Quelldokument und den zugeordneten Abschnitt des generierten Inhalts an.',

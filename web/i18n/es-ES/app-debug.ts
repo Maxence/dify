@@ -76,6 +76,12 @@ const translation = {
       description: 'Una vez habilitado, el texto puede convertirse en voz.',
       resDes: 'Texto a Audio habilitado',
     },
+    fileOnlyMessage: {
+      title: 'Permitir mensaje vacío con archivo',
+      description: 'Permite enviar un mensaje en blanco cuando hay al menos un archivo adjunto.',
+      placeholder_one: 'Revisa este archivo',
+      placeholder_other: 'Revisa estos archivos',
+    },
     citation: {
       title: 'Citas y Atribuciones',
       description: 'Una vez habilitado, muestra el documento fuente y la sección atribuida del contenido generado.',

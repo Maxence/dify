@@ -67,6 +67,7 @@ const WorkflowAppWithAdditionalContext = () => {
       number_limits: features.file_upload?.number_limits || features.file_upload?.image?.number_limits || 3,
       fileUploadConfig: fileUploadConfigResponse,
     },
+    fileOnlyMessage: features.file_only_message || { enabled: false },
     opening: {
       enabled: !!features.opening_statement,
       opening_statement: features.opening_statement,

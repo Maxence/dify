@@ -51,6 +51,9 @@ export const createFeaturesStore = (initProps?: Partial<FeaturesState>) => {
           transfer_methods: [TransferMethod.local_file, TransferMethod.remote_url],
         },
       },
+      fileOnlyMessage: {
+        enabled: false,
+      },
       annotationReply: {
         enabled: false,
       },

@@ -35,6 +35,7 @@ def get_parameters_from_feature_dict(
                 }
             },
         ),
+        "file_only_message": features_dict.get("file_only_message", {"enabled": False}),
         "system_parameters": {
             "image_file_size_limit": dify_config.UPLOAD_IMAGE_FILE_SIZE_LIMIT,
             "video_file_size_limit": dify_config.UPLOAD_VIDEO_FILE_SIZE_LIMIT,

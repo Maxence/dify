@@ -245,6 +245,9 @@ export type ModelConfig = {
   file_upload?: {
     image: VisionSettings
   } & UploadFileSetting
+  file_only_message?: {
+    enabled: boolean
+  }
   files?: VisionFile[]
   created_at?: number
   updated_at?: number

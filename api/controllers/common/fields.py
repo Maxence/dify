@@ -22,6 +22,7 @@ parameters_fields = {
     "user_input_form": fields.Raw,
     "sensitive_word_avoidance": fields.Raw,
     "file_upload": fields.Raw,
+    "file_only_message": fields.Raw,
     "system_parameters": fields.Nested(parameters__system_parameters),
 }
 
