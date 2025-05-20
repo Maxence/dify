@@ -95,14 +95,16 @@ const ChatInputArea = ({
         notify({ type: 'info', message: t('appDebug.errorMessage.waitForFileUpload') })
         return
       }
+      let finalQuery = query
       if (!query || !query.trim()) {
         if (!(features.fileOnlyMessage?.enabled && files.length > 0)) {
           notify({ type: 'info', message: t('appAnnotation.errorMessage.queryRequired') })
           return
         }
+        finalQuery = t('common.chat.fileOnlyPlaceholder', { count: files.length }) || 'check this file'
       }
       if (checkInputsForm(inputs, inputsForm)) {
-        onSend(query, files)
+        onSend(finalQuery, files)
         setQuery('')
         setFiles([])
       }

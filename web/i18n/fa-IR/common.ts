@@ -558,6 +558,8 @@ const translation = {
     thought: 'فکر',
     thinking: 'تفکر...',
     resend: 'دوباره ارسال کنید',
+    fileOnlyPlaceholder_one: 'این فایل را بررسی کنید',
+    fileOnlyPlaceholder_other: 'این فایل‌ها را بررسی کنید',
   },
   promptEditor: {
     placeholder: 'دستور خود را اینجا بنویسید، «{» را وارد کنید تا یک متغیر درج کنید، «/» را وارد کنید تا یک بلوک محتوای دستور درج کنید',
