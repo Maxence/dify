@@ -216,6 +216,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Consenti messaggio vuoto con file',
+      description: 'Consenti l\'invio di un messaggio vuoto quando è allegato almeno un file.',
+      placeholder_one: 'Controlla questo file',
+      placeholder_other: 'Controlla questi file',
+    },
   },
   automatic: {
     title: 'Orchestrazione automatizzata delle applicazioni',

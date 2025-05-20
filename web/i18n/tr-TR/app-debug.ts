@@ -198,6 +198,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Dosya ile boş mesaj gönderimine izin ver',
+      description: 'En az bir dosya eklenmişse boş mesaj gönderilmesine izin ver.',
+      placeholder_one: 'Bu dosyayı kontrol et',
+      placeholder_other: 'Bu dosyaları kontrol et',
+    },
   },
   generate: {
     title: 'Prompt Oluşturucu',

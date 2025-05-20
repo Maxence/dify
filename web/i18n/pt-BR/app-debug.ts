@@ -198,6 +198,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Permitir mensagem vazia com arquivo',
+      description: 'Permitir o envio de uma mensagem vazia quando pelo menos um arquivo estiver anexado.',
+      placeholder_one: 'Verificar este arquivo',
+      placeholder_other: 'Verificar estes arquivos',
+    },
   },
   automatic: {
     title: 'Orquestração Automatizada de Aplicativos',

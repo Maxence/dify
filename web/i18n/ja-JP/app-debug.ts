@@ -213,6 +213,12 @@ const translation = {
       numberLimit: '最大アップロード数',
       modalTitle: '画像アップロード設置',
     },
+    fileOnlyMessage: {
+      title: 'ファイルのみメッセージを許可',
+      description: '少なくとも1つのファイルが添付されている場合、空のメッセージを送信することを許可します。',
+      placeholder_one: 'このファイルをチェック',
+      placeholder_other: 'これらのファイルをチェック',
+    },
     bar: {
       empty: 'Webアプリのユーザーエクスペリアンスを強化させる機能を有効にする',
       enableText: '有効な機能',

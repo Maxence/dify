@@ -198,6 +198,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Permite mesaj gol cu fișier',
+      description: 'Permite trimiterea unui mesaj gol când este atașat cel puțin un fișier.',
+      placeholder_one: 'Verifică acest fișier',
+      placeholder_other: 'Verifică aceste fișiere',
+    },
   },
   automatic: {
     title: 'Orchestrarea automată a aplicațiilor',

@@ -198,6 +198,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Разрешить пустое сообщение с файлом',
+      description: 'Позволяет отправлять пустое сообщение, если прикреплен хотя бы один файл.',
+      placeholder_one: 'Проверить этот файл',
+      placeholder_other: 'Проверить эти файлы',
+    },
   },
   generate: {
     title: 'Генератор промпта',

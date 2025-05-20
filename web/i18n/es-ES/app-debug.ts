@@ -198,6 +198,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Permitir mensaje vacío con archivo',
+      description: 'Permitir enviar un mensaje en blanco cuando al menos un archivo esté adjunto.',
+      placeholder_one: 'Revisar este archivo',
+      placeholder_other: 'Revisar estos archivos',
+    },
   },
   automatic: {
     title: 'Orquestación automatizada de aplicaciones',
