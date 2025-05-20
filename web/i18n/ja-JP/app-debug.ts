@@ -214,10 +214,10 @@ const translation = {
       modalTitle: '画像アップロード設置',
     },
     fileOnlyMessage: {
-      title: 'ファイルのみメッセージを許可',
-      description: '少なくとも1つのファイルが添付されている場合、空のメッセージを送信することを許可します。',
-      placeholder_one: 'このファイルをチェック',
-      placeholder_other: 'これらのファイルをチェック',
+      title: 'ファイルのみのメッセージを許可',
+      description: '少なくとも1件のファイルが添付されている場合、空のメッセージを送信できます。',
+      placeholder_one: 'このファイルを確認',
+      placeholder_other: 'これらのファイルを確認',
     },
     bar: {
       empty: 'Webアプリのユーザーエクスペリアンスを強化させる機能を有効にする',
