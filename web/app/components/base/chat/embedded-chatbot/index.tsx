@@ -1,6 +1,7 @@
 import {
   useEffect,
   useState,
+  useMemo,
 } from 'react'
 import { useAsyncEffect } from 'ahooks'
 import { useTranslation } from 'react-i18next'
@@ -14,6 +15,8 @@ import { useThemeContext } from './theme/theme-context'
 import { CssTransform } from './theme/utils'
 import { checkOrSetAccessToken } from '@/app/components/share/utils'
 import AppUnavailable from '@/app/components/base/app-unavailable'
+import { FeaturesProvider } from '@/app/components/base/features'
+import type { Features as FeaturesData } from '@/app/components/base/features/types'
 import useBreakpoints, { MediaType } from '@/hooks/use-breakpoints'
 import Loading from '@/app/components/base/loading'
 import LogoHeader from '@/app/components/base/logo/logo-embedded-chat-header'
@@ -167,6 +170,10 @@ const EmbeddedChatbotWrapper = () => {
     setCurrentConversationInputs,
   } = useEmbeddedChatbot()
 
+  const featuresData = useMemo<FeaturesData>(() => ({
+    fileOnlyMessage: appParams?.file_only_message || { enabled: false },
+  }), [appParams])
+
   return <EmbeddedChatbotContext.Provider value={{
     appInfoError,
     appInfoLoading,
@@ -202,7 +209,9 @@ const EmbeddedChatbotWrapper = () => {
     currentConversationInputs,
     setCurrentConversationInputs,
   }}>
-    <Chatbot />
+    <FeaturesProvider features={featuresData}>
+      <Chatbot />
+    </FeaturesProvider>
   </EmbeddedChatbotContext.Provider>
 }
 

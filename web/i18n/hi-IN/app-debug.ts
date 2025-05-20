@@ -220,6 +220,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'फ़ाइल के साथ खाली संदेश की अनुमति दें',
+      description: 'जब कम से कम एक फ़ाइल संलग्न हो तो खाली संदेश भेजने की अनुमति दें।',
+      placeholder_one: 'इस फ़ाइल की जाँच करें',
+      placeholder_other: 'इन फ़ाइलों की जाँच करें',
+    },
   },
   automatic: {
     title: 'स्वचालित अनुप्रयोग आयोजन',
@@ -241,6 +247,12 @@ const translation = {
     overwriteTitle: 'मौजूदा कॉन्फ़िगरेशन को अधिलेखित करें?',
     overwriteMessage:
       'इस आयोजन को लागू करने से मौजूदा कॉन्फ़िगरेशन अधिलेखित हो जाएगा।',
+  },
+  fileOnlyMessage: {
+    title: 'फ़ाइल होने पर खाली संदेश की अनुमति दें',
+    description: 'कम से कम एक फ़ाइल संलग्न होने पर खाली संदेश भेजने की अनुमति देता है।',
+    placeholder_one: 'इस फ़ाइल की जांच करें',
+    placeholder_other: 'इन फ़ाइलों की जांच करें',
   },
   resetConfig: {
     title: 'रीसेट की पुष्टि करें?',
