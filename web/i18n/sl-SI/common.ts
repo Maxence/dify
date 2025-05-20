@@ -757,6 +757,8 @@ const translation = {
     thinking: 'Razmišljanje...',
     thought: 'Misel',
     resend: 'Ponovno pošlji',
+    fileOnlyPlaceholder_one: 'Preveri to datoteko',
+    fileOnlyPlaceholder_other: 'Preveri te datoteke',
   },
   promptEditor: {
     context: {

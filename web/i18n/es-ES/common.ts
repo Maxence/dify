@@ -558,6 +558,8 @@ const translation = {
     thinking: 'Pensamiento...',
     thought: 'Pensamiento',
     resend: 'Reenviar',
+    fileOnlyPlaceholder_one: 'Revisa este archivo',
+    fileOnlyPlaceholder_other: 'Revisa estos archivos',
   },
   promptEditor: {
     placeholder: 'Escribe tu palabra de indicación aquí, ingresa \'{\' para insertar una variable, ingresa \'/\' para insertar un bloque de contenido de indicación',

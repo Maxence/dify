@@ -54,6 +54,7 @@ const FeaturesWrappedAppPublisher = (props: Props) => {
         allowed_file_upload_methods: props.publishedConfig.modelConfig.file_upload?.allowed_file_upload_methods || props.publishedConfig.modelConfig.file_upload?.image?.transfer_methods || ['local_file', 'remote_url'],
         number_limits: props.publishedConfig.modelConfig.file_upload?.number_limits || props.publishedConfig.modelConfig.file_upload?.image?.number_limits || 3,
       } as FileUpload
+      draft.fileOnlyMessage = props.publishedConfig.modelConfig.file_only_message || { enabled: false }
     })
     setFeatures(newFeatures)
     setRestoreConfirmOpen(false)

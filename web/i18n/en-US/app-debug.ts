@@ -213,6 +213,10 @@ const translation = {
       numberLimit: 'Max uploads',
       modalTitle: 'Image Upload Setting',
     },
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+    },
     bar: {
       empty: 'Enable feature to enhance web app user experience',
       enableText: 'Features Enabled',

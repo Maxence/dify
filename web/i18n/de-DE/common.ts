@@ -554,6 +554,8 @@ const translation = {
     thought: 'Gedanke',
     thinking: 'Denken...',
     resend: 'Erneut senden',
+    fileOnlyPlaceholder_one: 'Überprüfe diese Datei',
+    fileOnlyPlaceholder_other: 'Überprüfe diese Dateien',
   },
   promptEditor: {
     placeholder: 'Schreiben Sie hier Ihr Aufforderungswort, geben Sie \'{\' ein, um eine Variable einzufügen, geben Sie \'/\' ein, um einen Aufforderungs-Inhaltsblock einzufügen',
