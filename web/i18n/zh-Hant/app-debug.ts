@@ -76,10 +76,22 @@ const translation = {
       description: '啟用後，文字可以轉換成語音。',
       resDes: '文字轉音訊已啟用',
     },
+    fileOnlyMessage: {
+      title: '允許僅傳送附檔訊息',
+      description: '當至少附加一個檔案時，可傳送空白訊息。',
+      placeholder_one: '查看此檔案',
+      placeholder_other: '查看這些檔案',
+    },
     citation: {
       title: '引用和歸屬',
       description: '啟用後，顯示源文件和生成內容的歸屬部分。',
       resDes: '引用和歸屬已啟用',
+    },
+    fileOnlyMessage: {
+      title: '允許附檔空訊息',
+      description: '當至少上傳一個檔案時，可傳送空白訊息。',
+      placeholder_one: '查看此檔案',
+      placeholder_other: '查看這些檔案',
     },
     annotation: {
       title: '標註回覆',
@@ -198,6 +210,18 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: '允許附檔空白訊息',
+      description: '當至少附加一個檔案時，可允許傳送空白訊息。',
+      placeholder_one: '檢查此檔案',
+      placeholder_other: '檢查這些檔案',
+    },
+  },
+  fileOnlyMessage: {
+    title: '附件時允許發送空消息',
+    description: '至少上傳一個檔案時允許發送空白訊息。',
+    placeholder_one: '請查看此檔案',
+    placeholder_other: '請查看這些檔案',
   },
   resetConfig: {
     title: '確認重置？',

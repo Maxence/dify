@@ -87,6 +87,12 @@ const translation = {
       description: 'Une fois activé, affichez le document source et la section attribuée du contenu généré.',
       resDes: 'Les citations et attributions sont activées',
     },
+    fileOnlyMessage: {
+      title: 'Autoriser le message vide avec fichier',
+      description: 'Permet l\'envoi d\'un message vide lorsqu\'un fichier est joint.',
+      placeholder_one: 'Vérifier ce fichier',
+      placeholder_other: 'Vérifier ces fichiers',
+    },
     annotation: {
       title: 'Réponse d\'Annotation',
       description: 'Vous pouvez manuellement ajouter une réponse de haute qualité au cache pour une correspondance prioritaire avec des questions d\'utilisateur similaires.',
@@ -204,6 +210,18 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Autoriser le message vide avec fichier',
+      description: 'Permettre l\'envoi d\'un message vide lorsqu\'au moins un fichier est attaché.',
+      placeholder_one: 'Vérifier ce fichier',
+      placeholder_other: 'Vérifier ces fichiers',
+    },
+  },
+  fileOnlyMessage: {
+    title: 'Autoriser le message vide avec fichier',
+    description: "Autorise l'envoi d'un message vide lorsqu'au moins un fichier est attaché.",
+    placeholder_one: 'Vérifiez ce fichier',
+    placeholder_other: 'Vérifiez ces fichiers',
   },
   resetConfig: {
     title: 'Confirmer la réinitialisation ?',

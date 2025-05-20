@@ -77,6 +77,12 @@ const translation = {
       resDes: 'Перетворення тексту на аудіо включено',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Цитати та Атрибуції', // Citations and Attributions
       description: 'Після активації показувати вихідний документ та атрибутований розділ згенерованого вмісту.',
       resDes: 'Цитати та Атрибуції активовано',
@@ -198,6 +204,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Дозволити порожнє повідомлення з файлом',
+      description: 'Дозволяє надсилати порожнє повідомлення, якщо прикріплено принаймні один файл.',
+      placeholder_one: 'Перевірити цей файл',
+      placeholder_other: 'Перевірити ці файли',
+    },
   },
   automatic: {
     title: 'Автоматизована оркестрація застосунків',
@@ -215,6 +227,12 @@ const translation = {
     loading: 'Оркестрація програми для вас...',
     overwriteTitle: 'Перезаписати існуючу конфігурацію?',
     overwriteMessage: 'Застосування цієї оркестрації призведе до перезапису існуючої конфігурації.',
+  },
+  fileOnlyMessage: {
+    title: 'Дозволити порожнє повідомлення з файлом',
+    description: 'Дозволяє надсилати порожнє повідомлення, якщо прикріплено принаймні один файл.',
+    placeholder_one: 'Перевірте цей файл',
+    placeholder_other: 'Перевірте ці файли',
   },
   resetConfig: {
     title: 'Підтвердіть скидання?',

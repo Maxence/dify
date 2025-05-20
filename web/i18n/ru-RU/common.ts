@@ -558,6 +558,8 @@ const translation = {
     thinking: 'Мыслящий...',
     thought: 'Мысль',
     resend: 'Переслать',
+    fileOnlyPlaceholder_one: 'Проверьте этот файл',
+    fileOnlyPlaceholder_other: 'Проверьте эти файлы',
   },
   promptEditor: {
     placeholder: 'Напишите здесь свое ключевое слово подсказки, введите \'{\', чтобы вставить переменную, введите \'/\', чтобы вставить блок содержимого подсказки',

@@ -585,6 +585,8 @@ const translation = {
     thinking: 'Pensante...',
     thought: 'Pensiero',
     resend: 'Reinvia',
+    fileOnlyPlaceholder_one: 'Controlla questo file',
+    fileOnlyPlaceholder_other: 'Controlla questi file',
   },
   promptEditor: {
     placeholder:

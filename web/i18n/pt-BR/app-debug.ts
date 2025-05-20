@@ -77,6 +77,12 @@ const translation = {
       resDes: 'Texto para áudio ativado',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Citações e Atribuições',
       description: 'Uma vez ativado, mostra o documento de origem e a seção atribuída do conteúdo gerado.',
       resDes: 'Citações e Atribuições estão ativadas',
@@ -198,6 +204,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Permitir mensagem vazia com arquivo',
+      description: 'Permitir o envio de uma mensagem vazia quando pelo menos um arquivo estiver anexado.',
+      placeholder_one: 'Verificar este arquivo',
+      placeholder_other: 'Verificar estes arquivos',
+    },
   },
   automatic: {
     title: 'Orquestração Automatizada de Aplicativos',
@@ -215,6 +227,12 @@ const translation = {
     loading: 'Orquestrando o aplicativo para você...',
     overwriteTitle: 'Substituir configuração existente?',
     overwriteMessage: 'Aplicar esta orquestração irá substituir a configuração existente.',
+  },
+  fileOnlyMessage: {
+    title: 'Permitir mensagem vazia com arquivo',
+    description: 'Permite enviar uma mensagem em branco quando ao menos um arquivo estiver anexado.',
+    placeholder_one: 'Verifique este arquivo',
+    placeholder_other: 'Verifique estes arquivos',
   },
   resetConfig: {
     title: 'Confirmar redefinição?',

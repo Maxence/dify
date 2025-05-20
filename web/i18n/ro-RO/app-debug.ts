@@ -77,6 +77,12 @@ const translation = {
       resDes: 'Textul la audio este activat',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Citări și atribuiri',
       description: 'După activare, se vor afișa documentul sursă și secțiunea atribuită a conținutului generat.',
       resDes: 'Citări și atribuiri sunt activate',
@@ -198,6 +204,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Permite mesaj gol cu fișier',
+      description: 'Permite trimiterea unui mesaj gol când este atașat cel puțin un fișier.',
+      placeholder_one: 'Verifică acest fișier',
+      placeholder_other: 'Verifică aceste fișiere',
+    },
   },
   automatic: {
     title: 'Orchestrarea automată a aplicațiilor',
@@ -215,6 +227,12 @@ const translation = {
     loading: 'Orchestrarea aplicației pentru dvs...',
     overwriteTitle: 'Suprascrieți configurația existentă?',
     overwriteMessage: 'Aplicarea acestei orchestrări va suprascrie configurația existentă.',
+  },
+  fileOnlyMessage: {
+    title: 'Permite mesaj gol cu fișier',
+    description: 'Permite trimiterea unui mesaj gol când este atașat cel puțin un fișier.',
+    placeholder_one: 'Verifică acest fișier',
+    placeholder_other: 'Verifică aceste fișiere',
   },
   resetConfig: {
     title: 'Confirmați resetarea?',

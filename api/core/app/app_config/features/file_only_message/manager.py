@@ -19,5 +19,4 @@ class FileOnlyMessageConfigManager:
 
         if "enabled" not in config["file_only_message"] or not isinstance(config["file_only_message"]["enabled"], bool):
             config["file_only_message"]["enabled"] = False
-
         return config, ["file_only_message"]

@@ -3,6 +3,7 @@ from typing import Any
 
 from core.app.app_config.entities import AppAdditionalFeatures
 from core.app.app_config.features.file_upload.manager import FileUploadConfigManager
+from core.app.app_config.features.file_only_message.manager import FileOnlyMessageConfigManager
 from core.app.app_config.features.more_like_this.manager import MoreLikeThisConfigManager
 from core.app.app_config.features.opening_statement.manager import OpeningStatementConfigManager
 from core.app.app_config.features.retrieval_resource.manager import RetrievalResourceConfigManager
@@ -32,6 +33,8 @@ class BaseAppConfigManager:
         additional_features.file_upload = FileUploadConfigManager.convert(
             config=config_dict, is_vision=app_mode in {AppMode.CHAT, AppMode.COMPLETION, AppMode.AGENT_CHAT}
         )
+
+        additional_features.file_only_message = FileOnlyMessageConfigManager.convert(config=config_dict)
 
         additional_features.opening_statement, additional_features.suggested_questions = (
             OpeningStatementConfigManager.convert(config=config_dict)

@@ -81,6 +81,12 @@ const translation = {
       description: '显示源文档和生成内容的归属部分。',
       resDes: '引用和归属已启用',
     },
+    fileOnlyMessage: {
+      title: '允许附带文件的空消息',
+      description: '当至少附加一个文件时允许发送空消息。',
+      placeholder_one: '查看此文件',
+      placeholder_other: '查看这些文件',
+    },
     annotation: {
       title: '标注回复',
       description: '启用后，将标注用户的回复，以便在用户重复提问时快速响应。',
@@ -212,6 +218,12 @@ const translation = {
       supportedTypes: '支持的文件类型',
       numberLimit: '最大上传数',
       modalTitle: '图片上传设置',
+    },
+    fileOnlyMessage: {
+      title: '允许仅发送附件',
+      description: '在至少上传一个文件时，可以发送空消息。',
+      placeholder_one: '查看此文件',
+      placeholder_other: '查看这些文件',
     },
     bar: {
       empty: '开启功能增强 webapp 用户体验',

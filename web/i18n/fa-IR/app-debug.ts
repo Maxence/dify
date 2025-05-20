@@ -77,6 +77,12 @@ const translation = {
       resDes: 'تبدیل متن به صدا فعال شده است',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'ارجاعات و استنادات',
       description: 'پس از فعال شدن، سند منبع و بخش استناد شده از محتوای تولید شده را نشان می‌دهد.',
       resDes: 'ارجاعات و استنادات فعال شده است',
@@ -198,6 +204,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'اجازه پیام خالی با فایل',
+      description: 'امکان ارسال پیام خالی هنگامی که حداقل یک فایل ضمیمه شده باشد.',
+      placeholder_one: 'این فایل را بررسی کنید',
+      placeholder_other: 'این فایل‌ها را بررسی کنید',
+    },
     generate: {
       title: 'تولید کننده دستورالعمل',
       description: 'تولید کننده دستورالعمل از مدل تنظیم شده برای بهینه سازی دستورالعمل‌ها برای کیفیت بالاتر و ساختار بهتر استفاده می‌کند. لطفاً دستورالعمل‌های واضح و دقیقی بنویسید.',
@@ -247,11 +259,17 @@ const translation = {
         },
         writingsPolisher: {
           name: 'پولیش‌گر نوشته‌ها',
-          instruction: 'استفاده از تکنیک‌های ویرایش پیشرفته برای بهبود نوشته‌های شما',
-        },
+      instruction: 'استفاده از تکنیک‌های ویرایش پیشرفته برای بهبود نوشته‌های شما',
       },
     },
-    resetConfig: {
+  },
+  fileOnlyMessage: {
+    title: 'اجازه پیام خالی همراه فایل',
+    description: 'اجازه می‌دهد وقتی حداقل یک فایل پیوست شده پیام خالی ارسال شود.',
+    placeholder_one: 'این فایل را بررسی کنید',
+    placeholder_other: 'این فایل‌ها را بررسی کنید',
+  },
+  resetConfig: {
       title: 'بازنشانی تأیید می‌شود؟',
       message: 'بازنشانی تغییرات را لغو کرده و تنظیمات منتشر شده آخر را بازیابی می‌کند.',
     },
