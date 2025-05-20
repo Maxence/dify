@@ -484,6 +484,7 @@ const Configuration: FC = () => {
         number_limits: modelConfig.file_upload?.number_limits || modelConfig.file_upload?.image?.number_limits || 3,
         fileUploadConfig: fileUploadConfigResponse,
       } as FileUpload,
+      fileOnlyMessage: modelConfig.file_only_message || { enabled: false },
       suggested: modelConfig.suggested_questions_after_answer || { enabled: false },
       citation: modelConfig.retriever_resource || { enabled: false },
       annotationReply: modelConfig.annotation_reply || { enabled: false },
@@ -761,6 +762,7 @@ const Configuration: FC = () => {
       speech_to_text: features?.speech2text as any,
       text_to_speech: features?.text2speech as any,
       file_upload: fileUpload as any,
+      file_only_message: features?.fileOnlyMessage as any,
       suggested_questions_after_answer: features?.suggested as any,
       retriever_resource: features?.citation as any,
       agent_mode: {
@@ -793,6 +795,7 @@ const Configuration: FC = () => {
       draft.suggested_questions_after_answer = suggestedQuestionsAfterAnswerConfig
       draft.speech_to_text = speechToTextConfig
       draft.text_to_speech = textToSpeechConfig
+      draft.file_only_message = features?.fileOnlyMessage
       draft.retriever_resource = citationConfig
       draft.dataSets = dataSets
     })
