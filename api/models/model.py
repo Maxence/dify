@@ -327,6 +327,7 @@ class AppModelConfig(Base):
     dataset_configs = db.Column(db.Text)
     external_data_tools = db.Column(db.Text)
     file_upload = db.Column(db.Text)
+    file_only_message = db.Column(db.Text)
 
     @property
     def app(self):
@@ -447,6 +448,10 @@ class AppModelConfig(Base):
             }
         )
 
+    @property
+    def file_only_message_dict(self) -> dict:
+        return json.loads(self.file_only_message) if self.file_only_message else {"enabled": False}
+
     def to_dict(self) -> dict:
         return {
             "opening_statement": self.opening_statement,
@@ -469,6 +474,7 @@ class AppModelConfig(Base):
             "completion_prompt_config": self.completion_prompt_config_dict,
             "dataset_configs": self.dataset_configs_dict,
             "file_upload": self.file_upload_dict,
+            "file_only_message": self.file_only_message_dict,
         }
 
     def from_model_config_dict(self, model_config: Mapping[str, Any]):
@@ -515,6 +521,7 @@ class AppModelConfig(Base):
             json.dumps(model_config.get("dataset_configs")) if model_config.get("dataset_configs") else None
         )
         self.file_upload = json.dumps(model_config.get("file_upload")) if model_config.get("file_upload") else None
+        self.file_only_message = json.dumps(model_config.get("file_only_message")) if model_config.get("file_only_message") else None
         return self
 
     def copy(self):
@@ -540,6 +547,7 @@ class AppModelConfig(Base):
             completion_prompt_config=self.completion_prompt_config,
             dataset_configs=self.dataset_configs,
             file_upload=self.file_upload,
+            file_only_message=self.file_only_message,
         )
 
         return new_app_model_config

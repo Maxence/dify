@@ -86,6 +86,12 @@ const translation = {
       resDes: 'पाठ से ऑडियो सक्रिय है',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'उद्धरण और संदर्भ',
       description:
         'सक्रिय होने पर, उत्पन्न सामग्री के स्रोत दस्तावेज़ और संदर्भित अनुभाग दिखाएं।',

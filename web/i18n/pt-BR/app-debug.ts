@@ -77,6 +77,12 @@ const translation = {
       resDes: 'Texto para áudio ativado',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Citações e Atribuições',
       description: 'Uma vez ativado, mostra o documento de origem e a seção atribuída do conteúdo gerado.',
       resDes: 'Citações e Atribuições estão ativadas',

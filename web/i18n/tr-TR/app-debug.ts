@@ -77,6 +77,12 @@ const translation = {
       resDes: 'Metinden Ses dosyasına dönüştürme etkinleştirildi',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Alıntılar ve Atıflar',
       description: 'Etkinleştirildiğinde, oluşturulan içeriğin kaynak belgesi ve atıfta bulunulan bölümü gösterilir.',
       resDes: 'Alıntılar ve Atıflar etkinleştirildi',

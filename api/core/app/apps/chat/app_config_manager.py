@@ -8,6 +8,7 @@ from core.app.app_config.easy_ui_based_app.prompt_template.manager import Prompt
 from core.app.app_config.easy_ui_based_app.variables.manager import BasicVariablesConfigManager
 from core.app.app_config.entities import EasyUIBasedAppConfig, EasyUIBasedAppModelConfigFrom
 from core.app.app_config.features.file_upload.manager import FileUploadConfigManager
+from core.app.app_config.features.file_only_message.manager import FileOnlyMessageConfigManager
 from core.app.app_config.features.opening_statement.manager import OpeningStatementConfigManager
 from core.app.app_config.features.retrieval_resource.manager import RetrievalResourceConfigManager
 from core.app.app_config.features.speech_to_text.manager import SpeechToTextConfigManager
@@ -102,6 +103,10 @@ class ChatAppConfigManager(BaseAppConfigManager):
 
         # file upload validation
         config, current_related_config_keys = FileUploadConfigManager.validate_and_set_defaults(config)
+        related_config_keys.extend(current_related_config_keys)
+
+        # file only message
+        config, current_related_config_keys = FileOnlyMessageConfigManager.validate_and_set_defaults(config)
         related_config_keys.extend(current_related_config_keys)
 
         # prompt

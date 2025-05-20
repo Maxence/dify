@@ -77,6 +77,12 @@ const translation = {
       resDes: 'Перетворення тексту на аудіо включено',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Цитати та Атрибуції', // Citations and Attributions
       description: 'Після активації показувати вихідний документ та атрибутований розділ згенерованого вмісту.',
       resDes: 'Цитати та Атрибуції активовано',

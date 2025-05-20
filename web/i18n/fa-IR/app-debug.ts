@@ -77,6 +77,12 @@ const translation = {
       resDes: 'تبدیل متن به صدا فعال شده است',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'ارجاعات و استنادات',
       description: 'پس از فعال شدن، سند منبع و بخش استناد شده از محتوای تولید شده را نشان می‌دهد.',
       resDes: 'ارجاعات و استنادات فعال شده است',
