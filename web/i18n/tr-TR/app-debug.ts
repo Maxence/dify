@@ -83,6 +83,12 @@ const translation = {
       placeholder_other: 'Bu dosyaları kontrol et',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Alıntılar ve Atıflar',
       description: 'Etkinleştirildiğinde, oluşturulan içeriğin kaynak belgesi ve atıfta bulunulan bölümü gösterilir.',
       resDes: 'Alıntılar ve Atıflar etkinleştirildi',
@@ -204,6 +210,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Dosya ile boş mesaj gönderimine izin ver',
+      description: 'En az bir dosya eklenmişse boş mesaj gönderilmesine izin ver.',
+      placeholder_one: 'Bu dosyayı kontrol et',
+      placeholder_other: 'Bu dosyaları kontrol et',
+    },
   },
   generate: {
     title: 'Prompt Oluşturucu',
@@ -257,6 +269,12 @@ const translation = {
         instruction: 'Yazılarınızı geliştirmek için ileri düzeyde kopya düzenleme teknikleri kullanır',
       },
     },
+  },
+  fileOnlyMessage: {
+    title: 'Dosya ile boş mesaj gönderimine izin ver',
+    description: 'En az bir dosya ekliyken boş mesaj göndermeye izin verir.',
+    placeholder_one: 'Bu dosyayı kontrol et',
+    placeholder_other: 'Bu dosyaları kontrol et',
   },
   resetConfig: {
     title: 'Sıfırlamayı onaylıyor musunuz?',

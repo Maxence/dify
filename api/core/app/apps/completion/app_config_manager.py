@@ -11,6 +11,7 @@ from core.app.app_config.features.file_upload.manager import FileUploadConfigMan
 from core.app.app_config.features.file_only_message.manager import FileOnlyMessageConfigManager
 from core.app.app_config.features.more_like_this.manager import MoreLikeThisConfigManager
 from core.app.app_config.features.text_to_speech.manager import TextToSpeechConfigManager
+from core.app.app_config.features.file_only_message.manager import FileOnlyMessageConfigManager
 from models.model import App, AppMode, AppModelConfig
 
 

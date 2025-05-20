@@ -10,6 +10,7 @@ from core.app.app_config.features.suggested_questions_after_answer.manager impor
     SuggestedQuestionsAfterAnswerConfigManager,
 )
 from core.app.app_config.features.text_to_speech.manager import TextToSpeechConfigManager
+from core.app.app_config.features.file_only_message.manager import FileOnlyMessageConfigManager
 from core.app.app_config.workflow_ui_based_app.variables.manager import WorkflowVariablesConfigManager
 from models.model import App, AppMode
 from models.workflow import Workflow

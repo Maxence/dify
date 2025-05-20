@@ -83,6 +83,12 @@ const translation = {
       placeholder_other: 'Preveri te datoteke',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Citati in pripisovanja',
       description: 'Ko je omogočeno, prikaži izvorni dokument in pripisani del generirane vsebine.',
       resDes: 'Citati in pripisovanja so omogočeni.',
@@ -242,6 +248,18 @@ const translation = {
         ok: 'V redu',
       },
     },
+    fileOnlyMessage: {
+      title: 'Dovoli prazno sporočilo z datoteko',
+      description: 'Omogoči pošiljanje praznega sporočila, ko je priložena vsaj ena datoteka.',
+      placeholder_one: 'Preveri to datoteko',
+      placeholder_other: 'Preveri te datoteke',
+    },
+  },
+  fileOnlyMessage: {
+    title: 'Dovoli prazno sporočilo z datoteko',
+    description: 'Omogoča pošiljanje praznega sporočila, ko je priložena vsaj ena datoteka.',
+    placeholder_one: 'Preveri to datoteko',
+    placeholder_other: 'Preveri te datoteke',
   },
 }
 

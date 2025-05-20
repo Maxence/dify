@@ -2,6 +2,7 @@ import type { FC } from 'react'
 import {
   useEffect,
   useState,
+  useMemo,
 } from 'react'
 import { useAsyncEffect } from 'ahooks'
 import { useThemeContext } from '../embedded-chatbot/theme/theme-context'
@@ -19,6 +20,8 @@ import Loading from '@/app/components/base/loading'
 import useBreakpoints, { MediaType } from '@/hooks/use-breakpoints'
 import { checkOrSetAccessToken } from '@/app/components/share/utils'
 import AppUnavailable from '@/app/components/base/app-unavailable'
+import { FeaturesProvider } from '@/app/components/base/features'
+import type { Features as FeaturesData } from '@/app/components/base/features/types'
 import cn from '@/utils/classnames'
 
 type ChatWithHistoryProps = {
@@ -161,6 +164,10 @@ const ChatWithHistoryWrap: FC<ChatWithHistoryWrapProps> = ({
     setCurrentConversationInputs,
   } = useChatWithHistory(installedAppInfo)
 
+  const featuresData = useMemo<FeaturesData>(() => ({
+    fileOnlyMessage: appParams?.file_only_message || { enabled: false },
+  }), [appParams])
+
   return (
     <ChatWithHistoryContext.Provider value={{
       appInfoError,
@@ -203,7 +210,9 @@ const ChatWithHistoryWrap: FC<ChatWithHistoryWrapProps> = ({
       currentConversationInputs,
       setCurrentConversationInputs,
     }}>
-      <ChatWithHistory className={className} />
+      <FeaturesProvider features={featuresData}>
+        <ChatWithHistory className={className} />
+      </FeaturesProvider>
     </ChatWithHistoryContext.Provider>
   )
 }

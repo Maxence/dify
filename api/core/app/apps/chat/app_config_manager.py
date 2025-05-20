@@ -16,6 +16,7 @@ from core.app.app_config.features.suggested_questions_after_answer.manager impor
     SuggestedQuestionsAfterAnswerConfigManager,
 )
 from core.app.app_config.features.text_to_speech.manager import TextToSpeechConfigManager
+from core.app.app_config.features.file_only_message.manager import FileOnlyMessageConfigManager
 from models.model import App, AppMode, AppModelConfig, Conversation
 
 

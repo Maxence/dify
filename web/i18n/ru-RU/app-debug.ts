@@ -83,6 +83,12 @@ const translation = {
       placeholder_other: 'Проверьте эти файлы',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Цитаты и ссылки',
       description: 'После включения отображается исходный документ и атрибутированная часть сгенерированного контента.',
       resDes: 'Цитаты и ссылки включены',
@@ -204,6 +210,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Разрешить пустое сообщение с файлом',
+      description: 'Позволяет отправлять пустое сообщение, если прикреплен хотя бы один файл.',
+      placeholder_one: 'Проверить этот файл',
+      placeholder_other: 'Проверить эти файлы',
+    },
   },
   generate: {
     title: 'Генератор промпта',
@@ -257,6 +269,12 @@ const translation = {
         instruction: 'Используйте LLM, чтобы улучшить свои письменные работы',
       },
     },
+  },
+  fileOnlyMessage: {
+    title: 'Разрешить пустое сообщение с файлом',
+    description: 'Позволяет отправлять пустое сообщение, если прикреплен хотя бы один файл.',
+    placeholder_one: 'Проверьте этот файл',
+    placeholder_other: 'Проверьте эти файлы',
   },
   resetConfig: {
     title: 'Подтвердить сброс?',

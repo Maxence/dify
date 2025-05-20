@@ -91,6 +91,12 @@ const translation = {
       placeholder_other: 'Controlla questi file',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Citazioni e attribuzioni',
       description:
         'Una volta abilitato, mostra il documento sorgente e la sezione attribuita del contenuto generato.',
@@ -222,6 +228,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Consenti messaggio vuoto con file',
+      description: 'Consenti l\'invio di un messaggio vuoto quando è allegato almeno un file.',
+      placeholder_one: 'Controlla questo file',
+      placeholder_other: 'Controlla questi file',
+    },
   },
   automatic: {
     title: 'Orchestrazione automatizzata delle applicazioni',
@@ -243,6 +255,12 @@ const translation = {
     overwriteTitle: 'Sovrascrivere la configurazione esistente?',
     overwriteMessage:
       'Applicando questa orchestrazione sovrascriverai la configurazione esistente.',
+  },
+  fileOnlyMessage: {
+    title: 'Consenti messaggio vuoto con file',
+    description: "Permette l'invio di un messaggio vuoto quando è allegato almeno un file.",
+    placeholder_one: 'Controlla questo file',
+    placeholder_other: 'Controlla questi file',
   },
   resetConfig: {
     title: 'Confermare il ripristino?',

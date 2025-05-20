@@ -83,6 +83,12 @@ const translation = {
       placeholder_other: 'Kiểm tra các tệp này',
     },
     citation: {
+    fileOnlyMessage: {
+      title: 'Allow Empty Message With File',
+      description: 'Permit sending a blank message when at least one file is attached.',
+      placeholder_one: 'Check this file',
+      placeholder_other: 'Check these files',
+    },
       title: 'Trích dẫn và chú thích',
       description: 'Khi được bật, hiển thị nguồn tài liệu và phần được trích dẫn của nội dung được tạo ra.',
       resDes: 'Đã bật trích dẫn và chú thích',
@@ -204,6 +210,12 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Cho phép gửi tin nhắn rỗng kèm tệp',
+      description: 'Cho phép gửi tin nhắn rỗng khi có ít nhất một tệp đính kèm.',
+      placeholder_one: 'Kiểm tra tệp này',
+      placeholder_other: 'Kiểm tra các tệp này',
+    },
   },
   automatic: {
     title: 'Tự động hóa triển khai ứng dụng',
@@ -221,6 +233,12 @@ const translation = {
     loading: 'Đang tự động hóa ứng dụng cho bạn...',
     overwriteTitle: 'Ghi đè cấu hình hiện tại?',
     overwriteMessage: 'Áp dụng tự động hóa này sẽ ghi đè lên cấu hình hiện tại.',
+  },
+  fileOnlyMessage: {
+    title: 'Cho phép gửi tin nhắn trống khi có tệp',
+    description: 'Cho phép gửi tin nhắn trống khi có ít nhất một tệp đính kèm.',
+    placeholder_one: 'Kiểm tra tệp này',
+    placeholder_other: 'Kiểm tra các tệp này',
   },
   resetConfig: {
     title: 'Xác nhận đặt lại?',

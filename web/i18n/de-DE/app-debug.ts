@@ -79,13 +79,19 @@ const translation = {
     fileOnlyMessage: {
       title: 'Leere Nachricht mit Datei erlauben',
       description: 'Ermöglicht das Senden einer leeren Nachricht, wenn mindestens eine Datei angehängt ist.',
-      placeholder_one: 'Pr\u00fcfe diese Datei',
-      placeholder_other: 'Pr\u00fcfe diese Dateien',
+      placeholder_one: 'Schau dir diese Datei an',
+      placeholder_other: 'Schau dir diese Dateien an',
     },
     citation: {
       title: 'Zitate und Urheberangaben',
       description: 'Einmal aktiviert, zeigen Sie das Quelldokument und den zugeordneten Abschnitt des generierten Inhalts an.',
       resDes: 'Zitate und Urheberangaben sind aktiviert',
+    },
+    fileOnlyMessage: {
+      title: "Allow Empty Message With File",
+      description: "Permit sending a blank message when at least one file is attached.",
+      placeholder_one: "Check this file",
+      placeholder_other: "Check these files",
     },
     annotation: {
       title: 'Annotation Antwort',
@@ -204,6 +210,18 @@ const translation = {
         },
       },
     },
+    fileOnlyMessage: {
+      title: 'Leere Nachricht mit Datei erlauben',
+      description: 'Das Senden einer leeren Nachricht erlauben, wenn mindestens eine Datei angehängt ist.',
+      placeholder_one: 'Diese Datei prüfen',
+      placeholder_other: 'Diese Dateien prüfen',
+    },
+  },
+  fileOnlyMessage: {
+    title: 'Leere Nachricht mit Datei erlauben',
+    description: 'Ermöglicht das Senden einer leeren Nachricht, wenn mindestens eine Datei angehängt ist.',
+    placeholder_one: 'Prüfe diese Datei',
+    placeholder_other: 'Prüfe diese Dateien',
   },
   resetConfig: {
     title: 'Zurücksetzen bestätigen?',
