@@ -216,6 +216,12 @@ const translation = {
     overwriteTitle: 'Substituir configuração existente?',
     overwriteMessage: 'Aplicar esta orquestração irá substituir a configuração existente.',
   },
+  fileOnlyMessage: {
+    title: 'Permitir mensagem vazia com arquivo',
+    description: 'Permite enviar uma mensagem em branco quando ao menos um arquivo estiver anexado.',
+    placeholder_one: 'Verifique este arquivo',
+    placeholder_other: 'Verifique estes arquivos',
+  },
   resetConfig: {
     title: 'Confirmar redefinição?',
     message:

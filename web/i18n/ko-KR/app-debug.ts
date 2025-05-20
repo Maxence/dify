@@ -216,6 +216,12 @@ const translation = {
     overwriteTitle: '기존 구성을 덮어쓰시겠습니까?',
     overwriteMessage: '이 오케스트레이션을 적용하면 기존 구성이 덮어쓰여집니다.',
   },
+  fileOnlyMessage: {
+    title: '파일만으로 메시지 보내기 허용',
+    description: '파일이 하나 이상 첨부된 경우 빈 메시지를 보낼 수 있습니다.',
+    placeholder_one: '이 파일을 확인하세요',
+    placeholder_other: '이 파일들을 확인하세요',
+  },
   resetConfig: {
     title: '리셋을 확인하시겠습니까?',
     message: '변경 사항이 취소되고, 마지막으로 공개된 구성이 복원됩니다.',

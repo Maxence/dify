@@ -216,6 +216,12 @@ const translation = {
     overwriteTitle: '¿Sobrescribir configuración existente?',
     overwriteMessage: 'Aplicar esta orquestación sobrescribirá la configuración existente.',
   },
+  fileOnlyMessage: {
+    title: 'Permitir mensaje vacío con archivo',
+    description: 'Permite enviar un mensaje en blanco cuando hay al menos un archivo adjunto.',
+    placeholder_one: 'Revisa este archivo',
+    placeholder_other: 'Revisa estos archivos',
+  },
   resetConfig: {
     title: '¿Confirmar restablecimiento?',
     message: 'Restablecer descarta cambios, restaurando la última configuración publicada.',
